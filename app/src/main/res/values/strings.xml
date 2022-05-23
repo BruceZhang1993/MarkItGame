@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Mark It Game</string>
+    <string name="title_activity_main">Mark It Game</string>
+    <string name="title_home">Home</string>
+    <string name="title_games">Games</string>
+    <!-- Preference Titles -->
+    <string name="general_header">General</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Preference keys -->
+    <string name="default_preference_key">default_preference_key</string>
+    <string name="activated_game_list">activated_game_list</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!-- Permission Descriptions -->
+    <string name="query_package_permission_description">We use this permission to query your installed games</string>
+    <string name="default_app_label">Label</string>
+    <string name="remove_this">Remove this</string>
+</resources>

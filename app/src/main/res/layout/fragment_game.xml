@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:paddingVertical="4dp">
+
+    <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            tools:srcCompat="@tools:sample/avatars"
+            android:id="@+id/app_icon"
+            android:layout_weight="0"
+            android:contentDescription="@string/default_app_label"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginEnd="4dp"
+            android:scaleType="fitCenter"
+            />
+
+    <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:layout_gravity="start|center_vertical"
+            android:layout_weight="1"
+            android:textSize="22sp"/>
+
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_delete"
+            android:id="@+id/removeOne"
+            android:layout_weight="0"
+            android:layout_gravity="center_vertical|end"
+            android:contentDescription="@string/remove_this"
+            android:visibility="gone"/>
+</LinearLayout>
